@@ -1,0 +1,55 @@
+doctype html
+html
+  head
+    title Naaz Dance Academy 
+    style
+      include ../static/style.css
+
+  body
+    nav#navbar
+       ul 
+        div#logo 
+          img(src="../static/img/logo.jpg", alt="logo")
+          P NDC 
+        li #[a(href="/" ) Home ]
+        li #[a(href="/" ) About]
+        li #[a(href="/" ) Services]
+        li #[a(href="/" ) Class Info]
+        li #[a(href="/" ) Contact us ]
+      
+    section#introSection 
+        div Welcome to Naaz's Dance Academy 
+        div.small Eat Dance Sleep Repeat
+    section#MissionSection 
+        h2 Our Missions
+        div.card 
+            p Dance Perfection 
+            div.card-img 
+              img(src="../static/img/1.png", alt="1") 
+              p this is what we are 
+             
+        div.card 
+            p Eat Dance Sleep Repeat 
+            div.card-img 
+                img(src="../static/img/6.png", alt="1") 
+                p this is what we are
+        div.card 
+            p  Dance Now
+            div.card-img 
+              img(src="../static/img/7.jpg", alt="1") 
+              p this is what we are
+
+
+    section#sponsorSection 
+        h2 section for sponsors 
+        div#sponsors
+          img(src="../static/img/logo1.png", alt="sponsor" Class="sp-image")
+          img(src="../static/img/logo2.jpg", alt="sponsor" Class="sp-image")
+          img(src="../static/img/logo3.png", alt="sponsor" Class="sp-image")
+          img(src="../static/img/logo4.png", alt="sponsor" Class="sp-image")
+
+    footer#footer 
+        | copyright © 2020 NaazDanceAcademy | All rights reserved
+        
+    script
+      include ../static/index.js

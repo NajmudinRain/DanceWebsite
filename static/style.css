@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#logo {
+  display: inline-block;
+  /* border: 2px solid black; */
+}
+#logo img {
+  height: 50px;
+  width: 61px;
+  margin-top: 8px;
+  border-radius: 10px;
+}
+#logo img:hover {
+  filter: invert(1);
+}
+#logo p {
+  color: white;
+  font-size: 10px;
+  margin-left: 12px;
+  margin-bottom: 18px;
+}
+#navbar {
+  background-color: rgba(75, 57, 8, 0.747);
+  padding: 13px 14px;
+  font-weight: bold;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+}
+#navbar ul {
+  display: flex;
+  flex-direction: row; /*by default it is row*/
+  /* justify-content: center; */
+  height: 40px;
+  align-items: center;
+}
+#navbar li {
+  list-style: none;
+  margin: 8px 8px;
+  padding: 3px 4px;
+}
+#navbar li a {
+  text-decoration: none;
+  padding: 13px 30px;
+  color: white;
+  /* color: white; */
+}
+#navbar li a:hover {
+  color: black;
+}
+
+#introSection {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: center / cover no-repeat url("/static/bg.jpg");
+  height: 500px;
+  background-color: red;
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  padding-bottom: 34px; /*for taking the text a bit aboove of center*/
+}
+#introSection:first-of-type {
+  font-size: 3rem;
+}
+#introSection div.small {
+  font-size: 25px;
+}
+#MissionSection {
+  height: 215px;
+  /* background-color: rgb(236, 251, 255); */
+  display: block;
+  width: 100%;
+  margin: auto;
+  background-color: rgb(17, 16, 1);
+}
+#MissionSection > h2 {
+  font-size: 2rem;
+
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  color: white;
+}
+.card {
+  width: 22%;
+  display: inline-block;
+  height: 170px;
+  /* border: 2px solid;
+  border-radius: 6px; */
+  margin: 0px 77px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgb(17, 11, 1);
+  font-family: "Dancing Script", cursive;
+  color: white;
+}
+
+.card-img {
+  height: 110px;
+}
+.card-img img {
+  height: inherit;
+  width: 170px;
+  filter: invert(1);
+}
+
+#sponsorSection {
+  height: 224px;
+  background-color: rgb(37, 37, 29);
+}
+#sponsorSection h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 15px;
+  font-family: "Dancing Script", cursive;
+  color: white;
+}
+#sponsors {
+  height: 127px;
+  max-width: 1000px;
+  margin: auto;
+}
+.sp-image {
+  height: 100px;
+  width: 142px;
+  margin: 34px 51px;
+  /* filter: invert(1); */
+}
+#footer {
+    display: flex;
+    color: white;
+    height: 100px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+    
+}
